@@ -1,0 +1,37 @@
+@media only all and (min-width: 1px)
+and (max-width:499px){
+  body {
+    background-color: red;
+    font-size: 150%;
+  }
+  div.moyen {
+    display: none;
+  }
+  div.grand {
+    display: none;
+  }
+}
+@media only all and (min-width: 500px)
+and (max-width: 767px){
+  body {
+    background-color: green;
+    font-size: 130%;
+  }
+  div.petit {
+    display: none;
+  }
+  div.grand {
+    display: none;
+  }
+}
+@media only all and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  div.moyen {
+    display: none;
+  }
+  div.petit {
+    display: none;
+  }
+}
